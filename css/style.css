@@ -1,0 +1,127 @@
+body {
+	font-family: 'Open-sans', sans serif;
+	font-size: 17px;
+	line-height: 1.5em;
+	margin:0;
+	padding: 0;
+}
+
+.container{
+	margin: auto;
+}
+
+img{
+	width: 100%;
+}
+
+/* Clases en comunes */
+
+.primary-text{
+	color:#4286f4;
+}
+
+/* Header */
+
+
+#main-header {
+	border-bottom: 1px solid #d8082e;
+
+}
+
+/* Navbar */
+
+#navbar{
+	text-transform: uppercase;
+}
+
+#navbar li {
+	display: inline;
+	padding-right: 20px;
+	list-style: none;
+}
+
+#navbar a {
+	text-decoration: none;
+	color:#888;
+}
+
+#navbar li.current a, #navbar a:hover{
+	color:#56a79a;
+	border-bottom: 3px solid #d8082e;
+	padding-bottom: 3px;
+}
+
+/* La imagen del centro */
+
+#showcase {
+	background: url('../imagenes/movies.jpg') no-repeat center center;
+	border-bottom:1px solid #d8082e;
+	margin-bottom: 30px;
+}
+
+#showcase .row{
+	height:600px;
+}
+
+#showcase p{
+	color:#ccc;
+	margin: 0;
+
+}
+
+#showcase .showcase-content{
+	background: #333;
+	color:#fff;
+	border-radius: 90px;
+	padding: 40px;
+	opacity: 0.9;
+}
+
+
+/* contacto */
+
+
+.contact form{
+  background:#333;
+  color:#fff;
+  padding:20px;
+}
+
+.contact form input[type="text"]{
+  width:50%;
+  height:30px;
+  margin-bottom:10px;
+}
+
+.contact form textarea{
+  width:50%;
+  height:100px;
+}
+
+.btn-enviar{
+  width:50%;
+  padding:10px 0;
+  border:0;
+  background:#222;
+  color:#fff;
+}
+
+.contact form label{
+  text-transform:uppercase;
+}
+
+/* footer */
+
+#mainfooter{
+  background:#56a79a;
+  color:#fff;
+ position:fixed;
+ bottom:0;
+ left:0;
+
+  
+  
+  width:100%;
+  
+  
+}

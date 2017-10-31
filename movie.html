@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="vieport" content="width=device-widht,initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PassThePopcorn | Buscador</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flexboxgrid.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="https://bootswatch.com/readable/bootstrap.min.css">
+</head>
+<body>
+	<!--Encabezado -->
+	<header id="mainheader">
+
+		<div class="container">
+			<div class="row end-sm end-md end-lg">
+				<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+					<h1><span class="primary-text">PassThe</span>Popcorn</h1>
+				</div>
+				<div class="col-xs-12 col-sm-10 col-md-10 col-lg-10">
+					<nav id="navbar">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li class="current"><a href="buscador.html">Busca tus películas! <i class="fa fa-film"></i></a> </li>
+						</ul>
+						
+					</nav>
+				</div>
+			</div>
+		</div>
+		
+
+	</header>
+
+<!-- Buscador de películas -->
+
+
+
+<div class="container">
+	<div id="movie" class="well"></div>
+</div>
+
+
+
+
+<!-- Footer -->
+
+	<footer id="mainfooter">
+		<div class="container">
+			<div class="row center-xs center-sm center-md center-lg">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<p>Copyright &copy; 2017 | PassThePopcorn</p>		
+				</div>
+			</div>
+		</div>
+	</footer>
+
+<!-- jQuery :(  -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<!-- axios -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- mi Script -->
+<script src="js/buscador.js"></script>
+<script>
+	getMovie();
+</script>
+
+</body>
+</html>
