@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/flexboxgrid.css">
 	<link rel="stylesheet" href="css/font-awesome.css">
 
-    <script src="js/script.js"></script>
+    <script src="js/buscador.js"></script>
 
 </head>
 <body>
@@ -56,10 +56,10 @@
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h2><span class="primary-text">Manténnos</span> al tanto!</h2>
             <p>Por favor contáctanos a través de este formulario</p>
-            <form method="POST" action="registrar.php" onsubmit="return validar();">
+            <form method="POST" action="registrar.php" onsubmit="return validar(this);">
               <div>
                 <label for="name">Nombre</label><br>
-                <input type="text" id="nombre" required="">
+                <input type="text" id="nombre" requird="">
               </div>
               <div>
                 <label for="email">Email</label><br>
